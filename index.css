@@ -1,0 +1,45 @@
+body {
+  background-color: #000033;
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #000033;
+}
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #040720;
+}
+
+.mainContainer {
+  width: 95%;
+  height: 800;
+  margin: auto auto;
+  background-color: #000;
+}
+
+.leftContainer {
+  float: left;
+  width: 60%;
+  height: 500px;
+  background-color: yellow;
+  margin: 10px;
+}
+
+.rightContainer {
+  float: right;
+  width: 35%;
+  height: 500px;
+  background-color: orange;
+  margin: 10px;
+}
