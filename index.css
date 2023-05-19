@@ -43,3 +43,9 @@ body {
   background-color: orange;
   margin: 10px;
 }
+
+.blankContainer {
+  width: 100%;
+  height: 200px;
+  background-color: #000;
+}
