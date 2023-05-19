@@ -3,12 +3,14 @@ body {
   background-color: #fff;
   margin: 0;
   color: white;
+  font-size: 32px;
 }
 
 .navbar {
   overflow: hidden;
   background-color: #000044;
   position: fixed;
+  width: 100%;
 }
 
 .navbar a {
@@ -28,27 +30,36 @@ body {
 .mainContainer {
   width: 100%;
   height: 300px;
-  background-color: red;
+  background-color: blue;
+  border: groove;
+  border-color: #222
 }
 
 .leftContainer {
   float: left;
   width: 60%;
   height: 300px;
-  background-color: yellow;
+  background-color: darkblue;
   margin-left: 10px;
+  text-align: right;
+  border: groove;
+  border-color: #222
 }
 
 .rightContainer {
   float: right;
   width: 38.5%;
   height: 300px;
-  background-color: orange;
+  background-color: darkblue;
   margin-right: 10px;
+  border: groove;
+  border-color: #222
 }
 
 .blankContainer {
   width: 100%;
   height: 300px;
   background-color: blue;
+  border: groove;
+  border-color: #222
 }
