@@ -11,6 +11,7 @@ body {
   background-color: #000044;
   position: fixed;
   width: 100%;
+  height: 75px;
 }
 
 .navbar a {
@@ -27,39 +28,35 @@ body {
   background-color: #000055;
 }
 
+.blankNavBar {
+  width: 100%;
+  height: 75px;
+}
+
 .mainContainer {
   width: 100%;
-  height: 300px;
+  height: 400px;
   background-color: blue;
-  border: groove;
-  border-color: #222
+  display: flex;
 }
 
 .leftContainer {
   float: left;
   width: 60%;
-  height: 300px;
-  background-color: darkblue;
-  margin-left: 10px;
+  height: 400px;
+  background-color: darkgreen;
   text-align: right;
-  border: groove;
-  border-color: #222
 }
 
 .rightContainer {
   float: right;
-  width: 38.5%;
-  height: 300px;
+  width: 40%;
+  height: 400px;
   background-color: darkblue;
-  margin-right: 10px;
-  border: groove;
-  border-color: #222
 }
 
 .blankContainer {
   width: 100%;
-  height: 300px;
-  background-color: blue;
-  border: groove;
-  border-color: #222
+  height: 500px;
+  background-color: red;
 }
